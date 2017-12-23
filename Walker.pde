@@ -4,8 +4,7 @@ class Walker {
   PVector location3;
   PVector location4;
 
-  PVector noff1,noff2,noff3,noff4;
-  
+  PVector noff1;
   
 
   Walker() {
@@ -57,9 +56,6 @@ class Walker {
     
     
     noff1.add(0.001,0.001,0);
-    noff2.add(0.01,0.01,0);
-    noff3.add(0.01,0.01,0);
-    noff4.add(0.01,0.01,0);
     
   }
 }
